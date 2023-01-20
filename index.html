@@ -114,6 +114,14 @@
       font-size: 2.5rem !important;
     }
 
+    .show-now{
+      display: none;
+    }
+    @media (max-width: 991px){
+      .show-now{
+        display: block !important;
+      }
+    }
     @media (max-width: 768px){
       .about-img{
         display: none !important;
@@ -127,6 +135,8 @@
       .welcome-header{
         font-size: 1.8rem !important;
       }
+
+  
     }
   </style>
 
@@ -238,6 +248,7 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a data-bs-target="#ijobukky" data-bs-toggle="modal" class="site__btn show-now">Join Us</a></li>
             <!-- <li><a href="#">Pages</a>
               <ul class="sub__menu">
                 
@@ -248,7 +259,7 @@
           </ul>
         </div>
         <div class="col-lg-2 text-lg-right d-none d-lg-block">
-          <button class="site__btn" data-bs-toggle="modal" data-bs-target="#ijobukky">Join Us</button>
+          <button class="site__btn hide-now" data-bs-toggle="modal" data-bs-target="#ijobukky">Join Us</button>
         </div>
       </div>
     </div>
