@@ -4,7 +4,7 @@
   var songs = [{
     title: "Medly",
     artist_name: "Ijobukky Gospel Bata",
-    mp3: "music-files/1.MPEG",
+    mp3: "music-files/1.mp3",
     thumb: "img/track-thumbs/2.jpg",
     length: 3.16,
     platform_url: {
@@ -16,7 +16,7 @@
   }, {
     title: "Bata medly",
     artist_name: "IjoBukky Gospel Bata",
-    mp3: "music-files/2.MPEG",
+    mp3: "music-files/2.mp3",
     thumb: "img/track-thumbs/1.jpg",
     length: 3.16,
     platform_url: {
@@ -52,7 +52,7 @@
   }, {
     title: "Eto Rere Loni Funmi",
     artist_name: "IjoBukky Gospel Bata",
-    mp3: "music-files/1.MPEG",
+    mp3: "music-files/1.mp3",
     thumb: "img/track-thumbs/3.jpg",
     length: 3.16,
     platform_url: {
@@ -64,7 +64,7 @@
   }, {
     title: "Oba Alase",
     artist_name: "IjoBukky Gospel Bata",
-    mp3: "music-files/2.MPEG",
+    mp3: "music-files/2.mp3",
     thumb: "img/track-thumbs/4.jpg",
     length: 3.16,
     platform_url: {
