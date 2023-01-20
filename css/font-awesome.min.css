@@ -1,0 +1,160 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+
+.fa-music:before {
+  content: "\f001"
+}
+
+.fa-envelope-o:before {
+  content: "\f003"
+}
+
+.fa-heart:before {
+  content: "\f004"
+}
+
+.fa-star:before {
+  content: "\f005"
+}
+
+.fa-user:before {
+  content: "\f007"
+}
+
+.fa-search-plus:before {
+  content: "\f00e"
+}
+
+.fa-clock-o:before {
+  content: "\f017"
+}
+
+.fa-headphones:before {
+  content: "\f025"
+}
+
+.fa-volume-up:before {
+  content: "\f028"
+}
+
+.fa-tag:before {
+  content: "\f02b"
+}
+
+.fa-map-marker:before {
+  content: "\f041"
+}
+
+.fa-share-square-o:before {
+  content: "\f045"
+}
+
+.fa-step-backward:before {
+  content: "\f048"
+}
+
+.fa-play:before {
+  content: "\f04b"
+}
+
+.fa-step-forward:before {
+  content: "\f051"
+}
+
+.fa-calendar:before {
+  content: "\f073"
+}
+
+.fa-random:before {
+  content: "\f074"
+}
+
+.fa-heart-o:before {
+  content: "\f08a"
+}
+
+.fa-phone:before {
+  content: "\f095"
+}
+
+.fa-twitter:before {
+  content: "\f099"
+}
+
+.fa-facebook:before {
+  content: "\f09a"
+}
+
+.fa-google-plus:before {
+  content: "\f0d5"
+}
+
+.fa-angle-left:before {
+  content: "\f104"
+}
+
+.fa-angle-right:before {
+  content: "\f105"
+}
+
+.fa-angle-up:before {
+  content: "\f106"
+}
+
+.fa-ticket:before {
+  content: "\f145"
+}
+
+.fa-youtube-play:before {
+  content: "\f16a"
+}
+
+.fa-instagram:before {
+  content: "\f16d"
+}
+
+.fa-apple:before {
+  content: "\f179"
+}
+
+.fa-spotify:before {
+  content: "\f1bc"
+}
+
+.fa-soundcloud:before {
+  content: "\f1be"
+}
+
+.fa-amazon:before {
+  content: "\f270"
+}
