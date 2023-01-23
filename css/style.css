@@ -1,5 +1,5 @@
 .show-now{
-	display: none;
+	display: none !important;
 }
 @media (max-width: 991px){
 	.show-now{
