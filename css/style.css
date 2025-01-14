@@ -25,6 +25,7 @@ h6 {
 	color: #222222;
 	font-family: "Nunito Sans", sans-serif;
 	font-weight: 700;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -274,6 +275,18 @@ header.ijobukky{
 	margin: 0 auto;
 }
 
+#join-btn {
+	display: flex ; 
+	justify-content: center ; 
+	align-items: center ;
+}
+
+@media (max-width: 900px) {
+	#join-btn {
+		display: none !important;
+	}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header__warp {
 		padding: 0 50px;
@@ -311,8 +324,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
 	.main__menu {
 		display: none;
 	}
+}
+
+@media (max-width: 900px){
 	.slicknav_menu{
 		display: block;
+        /* flex-direction: row; */
+        /* justify-content: flex-end; */
 	}
 }
 
@@ -1265,6 +1283,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	background-size: cover;
 	background-position: top center;
 	z-index: 2;
+}
+
+@media (max-width: 900px) {
+	.video__section {
+		padding: 20px 0 5px;
+	}
 }
 
 .video-player {
