@@ -37,6 +37,12 @@ h2 {
 	line-height: 1.4;
 }
 
+@media (max-width: 900px){
+	h2 {
+		font-size: 23px;
+	}
+}
+
 h3 {
 	font-size: 30px;
 }
@@ -258,7 +264,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	width: 100%;
 	left: 0;
 	top: 0;
-	padding: 20px;
+	padding: 20px 20px 0;
 	z-index:99;
 }
 
@@ -451,7 +457,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 @media (max-width: 576px),
 only screen and (min-width: 576px) and (max-width: 767px) {
 	.hero__section {
-		padding-top: 200px;
+		padding-top: 78px;
 		height: 900px;
 	}
 }
@@ -655,6 +661,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .player_right .section-title {
 	padding-left: 65px;
+}
+
+@media (max-width: 900px) {
+	.player_right .section-title {
+		padding-left: 5px;
+	}
 }
 
 .player-title {
